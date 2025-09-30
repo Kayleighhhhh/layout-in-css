@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="../style.css">
     <style>
       /* Doe hier jouw ding! */
+      body {
+        display: grid;
+        grid-template-columns: 5em 1fr 5em;
+        margin: 0;
+      }
+
+      header {
+        position: absolute;
+        width: 110vh;
+        height: 5em;
+        top: 50px;
+      }
+
+      main {
+        grid-column: 2/3;
+        padding: 10px;
+      }
     </style>
   </head>
   <body id="basic-layout-8">
