@@ -7,6 +7,33 @@
     <link rel="stylesheet" href="../style.css">
     <style>
       /* Doe hier jouw ding! */
+      body {
+        display: grid;
+        grid-template-columns: 5em auto;
+        grid-template-rows: 5em auto 5em;
+        gap: 10px;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        justify-content: center;
+      }
+
+      nav a {
+        background-color: beige;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
+      main {
+        grid-column: 1/3;
+      }
+
+      footer {
+        grid-column: 1/3;
+      }
     </style>
   </head>
   <body id="basic-layout-9">
